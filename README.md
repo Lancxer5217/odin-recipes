@@ -18,6 +18,8 @@ their license type.
 that requires attribution, based on the license terms 
 and requirements.
 
+* *CSS*: I learned how to use css to style a basic webpage, how to use div as a container, how to center a div, and how to reset browser default properties.
+
 ## Acknowledgments
 
 * [The Odin Project](https://www.theodinproject.com/dashboard)
