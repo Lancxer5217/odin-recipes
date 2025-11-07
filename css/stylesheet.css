@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4decb;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+p {
+    padding: 10px;
+    text-indent: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    text-align: right;
+}
+
+.heading {
+    background-color: antiquewhite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.container {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.hero {
+    width: 750px;
+}
+
+input {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ingredients {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients h3 {
+    padding-bottom: 0.5rem;
+}
+
+li {
+    list-style-position: inside;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.steps h3 {
+    padding-bottom: 0.5rem;
+}
+
+.steps {
+    padding: 1rem;
+}
+
+.container.list {
+    background-color: beige;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 2.5rem;
+}
+
+.container.list h2 {
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.recipe {
+    position: relative;
+    display: inline-block;
+}
+
+.recipe img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2.5rem;
+}
+
+.recipe h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}

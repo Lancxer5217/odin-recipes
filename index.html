@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-    <title>Home | Odin Recipes</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Home | Odin Recipes</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <div class="heading">
     <h1>Odin Recipes</h1>
+  </div>
+  <main>
+
     <figure>
-      <img
-        src="img/hero.jpg"
-        alt="The Odin Project icon featuring a chef's hat on a plate background"
-        width=500>
-      <figcaption>
-        background by
-        <a
-          href="https://www.freepik.com/free-photo/top-view-baby-tableware_10952565.htm#fromView=search&page=1&position=21&uuid=762aa0b9-4866-4a96-a356-5bdb65676754&query=empty+plate"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><strong>freepik</strong></a>
-      </figcaption>
+      <div class="container">
+        <img src="img/hero.png" class="hero" alt="The Odin Project icon featuring a chef's hat on a plate background"
+          width=500>
+        <figcaption>
+          background by
+          <a href="https://www.freepik.com/free-photo/top-view-baby-tableware_10952565.htm#fromView=search&page=1&position=21&uuid=762aa0b9-4866-4a96-a356-5bdb65676754&query=empty+plate"
+            target="_blank" rel="noopener noreferrer"><strong>freepik</strong></a>
+        </figcaption>
+      </div>
     </figure>
 
     <p>
@@ -32,13 +35,29 @@
       personally crafted recipe.
     </p>
 
-    <hr>
 
-    <h2>Dishes</h2>
-    <ul>
-      <li><a href="recipes/adobo.html">Adobong Manok</a></li>
-      <li><a href="recipes/sinampalukan.html">Sinampalukang Manok</a></li>
-      <li><a href="recipes/mugggo.html">Ginisang Munggo</a></li>
-    </ul>
-  </body>
+
+
+      <div class="container list">
+          <h2>Dishes</h2>
+        <div class="recipe">
+          
+          <a href="recipes/adobo.html"><h3>Adobong Manok</h3><img class="rImg" src="img/abobong-manok.jpg" alt="image of adobong manok"></a>
+        </div>
+        <div class="recipe">
+          
+          <a href="recipes/sinampalukan.html"><h3>Sinampalukang Manok</h3><img src="img/sinampalukang-manok.jpeg"
+              alt="image of sinampalukang manok"></a>
+        </div>
+        <div class="recipe">
+          
+          <a href="recipes/mugggo.html"><h3>Ginisang Munggo</h3>
+            <img src="img/ginisang-munggo.jpeg" alt="image of ginisang munggo"></a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+
 </html>
